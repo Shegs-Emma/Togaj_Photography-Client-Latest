@@ -1,0 +1,222 @@
+.Landing Button {
+  position: relative;
+  top: 400px;
+  font-size: xx-large;
+}
+
+.Landing .welcome-text {
+  position: relative;
+  top: 400px;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #adefd1ff;
+  font-family: 'Lobster Two', cursive;
+}
+
+.Landing{
+  position: fixed; 
+  top: -40%; 
+  left: -50%; 
+  width: 200%; 
+  height: 190%;
+}
+
+.Landing img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+@media(max-width: 1036px){
+  .Landing Button {
+    position: relative;
+    top: 400px;
+    font-size: xx-large;
+  }
+  
+  .Landing .welcome-text {
+    position: relative;
+    top: 400px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #adefd1ff;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .Landing{
+    position: fixed; 
+    top: -45%; 
+    left: -50%; 
+    width: 200%; 
+    height: 190%;
+  }
+  
+  .Landing img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 70%;
+    min-height: 50%;
+  }
+}
+
+/*Ipad Pro*/
+@media(width: 1024px) and (height: 1366px){
+  .Landing Button {
+    position: relative;
+    top: 1100px;
+    font-size: 55px;
+  }
+  
+  .Landing .welcome-text {
+    position: relative;
+    top: 1100px;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #adefd1ff;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .Landing{
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  
+  .Landing img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
+
+/*Ipad */
+@media(width: 768px) and (height: 1024px){
+  .Landing Button {
+    position: relative;
+    top: 800px;
+    font-size: 55px;
+  }
+  
+  .Landing .welcome-text {
+    position: relative;
+    top: 800px;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #adefd1ff;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .Landing{
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  
+  .Landing img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
+
+
+/*Iphone 6/7/8 plus*/
+@media(max-width: 414px) and (max-height: 736px){
+  .Landing Button {
+    position: relative;
+    left: 167px;
+    top: 550px;
+    font-size: 25px;
+  }
+  
+  .Landing .welcome-text {
+    position: relative;
+    left: 167px;
+    top: 550px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #adefd1ff;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .Landing{
+    position: fixed; 
+    top: -50%; 
+    left: -90%; 
+    width: 200%; 
+    height: 200%;
+  }
+  
+  .Landing img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
+
+/*Iphone X*/
+@media(width: 375px) and (height: 812px){
+  .Landing Button {
+    position: relative;
+    left: 260px;
+    top: 600px;
+    font-size: 25px;
+  }
+  
+  .Landing .welcome-text {
+    position: relative;
+    left: 260px;
+    top: 600px;
+    font-weight: bolder;
+    font-size: 28px;
+    color: #adefd1ff;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .Landing{
+    position: fixed; 
+    top: -50%; 
+    left: -120%; 
+    width: 200%; 
+    height: 200%;
+  }
+  
+  .Landing img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+}

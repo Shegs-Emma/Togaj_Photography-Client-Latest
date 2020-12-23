@@ -1,0 +1,45 @@
+.Photo{
+    width: 90%;
+    text-align: center;
+    /* box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #060606; */
+    padding: 2px;
+    /* box-sizing: border-box; */
+}
+
+.Image{
+    position: relative;
+    width: 100%;
+}
+
+.Button{
+    border-radius: 5px;
+    background-color: #3CB46E;
+    color: whitesmoke;
+    font-size: small;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Original Surfer', cursive;
+}
+
+.Button:nth-child(3){
+    background-color: rgb(223, 26, 26);
+    color: white;
+}
+
+
+@media(min-width: 500px){
+    .Photo{
+        width: 90%;
+    }
+
+    .Button{
+        border-radius: 5px;
+        background-color: #3CB46E;
+        color: white;
+        font-size: small;
+        padding: 5px;
+        margin: 1px;
+        font-family: 'Original Surfer', cursive;
+    }
+}

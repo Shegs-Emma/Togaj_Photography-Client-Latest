@@ -1,0 +1,112 @@
+/*Mobile Screens*/
+.Modal{
+    position: fixed;
+    z-index: 500;
+    width: 90%;
+    padding: 10px;
+    left: 5%;
+    top: 10%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media(min-width: 500px){
+    .Modal{
+        width: 80%;
+        left: calc(50% - 180px);
+        top: 10%;
+    }
+}
+
+/*Largest Screen*/
+@media(min-width: 1126px){
+    .Modal{
+        width: 31%;
+        top: 7%;
+    }
+}
+
+/* IPad Pro */
+@media(width: 1024px) and (height: 1366px){
+    .Modal{
+        width: 70%;
+        top: 15%;
+        left: 15%;
+    }
+}
+
+/*Ipad*/
+@media(width: 768px) and (height: 1024px){
+    .Modal{
+        width: 70%;
+        top: 15%;
+        left: 15%;
+    }
+}
+
+/* IPhone  5 */
+@media(width: 320px) and (height: 568px){
+    .Modal{
+        width: 90%;
+        top: 20%;
+        left: 5%;
+    }
+}
+
+/* IPhone  6/7/8 */
+@media(width: 375px) and (height: 667px){
+    .Modal{
+        width: 90%;
+        top: 20%;
+        left: 5%;
+    }
+}
+
+/* IPhone  6/7/8 Horizontal */
+@media(width: 667px) and (height: 375px){
+    .Modal{
+        width: 40%;
+        top: 20%;
+        left: 35%;
+    }
+}
+
+/* IPhone  6/7/8 plus */
+@media(width: 414px) and (height: 736px){
+    .Modal{
+        width: 95%;
+        top: 10%;
+        left: 3%;
+    }
+}
+
+/* IPhone X */
+@media(width: 375px) and (height: 812px){
+    .Modal{
+        width: 95%;
+        top: 20%;
+        left: 3%;
+    }
+}
+
+/* IPad */
+@media(width: 768px) and (height: 1024px){
+    .Modal{
+        width: 85%;
+        top: 5%;
+        left: 5%;
+    }
+}
+
+/* IPad Pro */
+@media(width: 1024px) and (height: 1366px){
+    .Modal{
+        width: 85%;
+        top: 5%;
+        left: 12%;
+    }
+}
