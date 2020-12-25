@@ -1,6 +1,9 @@
-import axios from 'axios';
-
 import * as actionTypes from '../actions/actionTypes';
+import axios from 'axios';
+// import { config } from 'dotenv';
+
+// config();
+
 
 export const fetchStart = () => {
     return{
@@ -47,7 +50,7 @@ export const postPhoto = (formData, token) => {
     return dispatch => {
         dispatch(postPhotoStart());
 
-        axios.post('http://localhost:3001/api/photos', formData, {
+        axios.post('https://enigmatic-eyrie-76099.herokuapp.com/api/photos', formData, {
                 headers: {
                     'Content-type': 'multi-part/form-data',
                     'Authorization' : `Bearer ${token}`
@@ -65,7 +68,7 @@ export const fetch = () => {
     return dispatch => {
         dispatch(fetchStart());
 
-        axios.get('http://localhost:3001/api/photos')
+        axios.get('https://enigmatic-eyrie-76099.herokuapp.com/api/photos')
             .then(res => {
                 const fetchedData = [];
                 const photos = res.data;

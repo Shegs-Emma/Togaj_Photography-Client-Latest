@@ -1,6 +1,10 @@
-import axios from 'axios';
-
 import * as actionTypes from './actionTypes';
+import axios from 'axios';
+// import { config } from 'dotenv';
+
+// config();
+
+
 
 export const authStart = () => {
     return {
@@ -52,10 +56,10 @@ export const auth = (email, password, adminCode, isSignUp) => {
             adminCode: adminCode
         }
 
-        let url = 'http://localhost:3001/api/auth/signup';
+        let url = 'https://enigmatic-eyrie-76099.herokuapp.com/api/auth/signup';
 
         if(!isSignUp){
-            url = 'http://localhost:3001/api/auth/login';
+            url = 'https://enigmatic-eyrie-76099.herokuapp.com/api/auth/login';
         }
 
         return axios.post(url, authData)
@@ -72,10 +76,7 @@ export const auth = (email, password, adminCode, isSignUp) => {
                     dispatch(checkAuthTimeout(3600));
                     
                 }catch(error){
-                    
-                    console.log(response);
                     console.log(error);
-                    console.log("I got here!" + error.error);
                 }
             })
             .catch(error => {
