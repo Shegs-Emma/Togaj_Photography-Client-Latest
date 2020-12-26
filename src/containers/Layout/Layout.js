@@ -3,10 +3,11 @@ import { connect } from 'react-redux';
 
 import Aux from '../../hoc/Auxilliary';
 import classes from './Layout.module.css';
-import logo from '../../assets/togaj_logo.png';
+import logo from '../../assets/togaj.png';
 
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
+import Footer from '../../components/Footer/Footer';
 
 const Layout = (props) => {
     const [ showSideDrawer, SetShowSideDrawer ] = useState(false);
@@ -58,6 +59,8 @@ const Layout = (props) => {
             <main className={classes.Content}>
                 {props.children}
             </main>
+
+            <Footer />
         </Aux>
     )
 }

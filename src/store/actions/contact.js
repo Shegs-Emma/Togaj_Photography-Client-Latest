@@ -1,8 +1,8 @@
 import * as actionTypes from './actionTypes';
 import axios from 'axios';
-// import { config } from 'dotenv';
+import { config } from 'dotenv';
 
-// config();
+config();
 
 export const contactStart = () => {
     return{
@@ -29,7 +29,8 @@ export const contact = (userDetails) => {
     return dispatch => {
         dispatch(contactStart());
 
-        axios.post('https://enigmatic-eyrie-76099.herokuapp.com/api/contact', userDetails)
+        // axios.post('https://enigmatic-eyrie-76099.herokuapp.com/api/contact', userDetails)
+        axios.post(`${process.env.REACT_APP_BASE_URL}contact`, userDetails)
             .then((res) => {
                 console.log(res);
                 dispatch(contactSuccess(res.data.messageId));

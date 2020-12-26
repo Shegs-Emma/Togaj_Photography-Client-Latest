@@ -1,10 +1,10 @@
 .Toolbar{
-    height: 56px;
+    height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #060606;
+    background-color: #22436D;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,5 +20,18 @@
 @media(max-width: 499px){
     .DesktopOnly{
         display: none;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .Toolbar {
+        height: 70px;
+    }
+}
+
+@media(min-width: 376px) and (max-width: 414px) {
+    .Toolbar {
+        height: 70px;
     }
 }
