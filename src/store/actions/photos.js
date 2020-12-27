@@ -50,7 +50,7 @@ export const postPhoto = (formData, token) => {
     return dispatch => {
         dispatch(postPhotoStart());
 
-        // axios.post('https://enigmatic-eyrie-76099.herokuapp.com/api/photos', formData, {
+        // axios.post('https://togaj-photography.herokuapp.com/api/photos', formData, {
         axios.post(`${process.env.REACT_APP_BASE_URL}photos`, formData, {
                 headers: {
                     'Content-type': 'multi-part/form-data',
@@ -69,8 +69,8 @@ export const fetch = () => {
     return dispatch => {
         dispatch(fetchStart());
 
-        // axios.get('https://enigmatic-eyrie-76099.herokuapp.com/api/photos')
-        axios.get(`${process.env.REACT_APP_BASE_URL}photos`)
+        axios.get('https://togaj-photography.herokuapp.com/api/photos')
+        // axios.get(`${process.env.REACT_APP_BASE_URL}photos`)
             .then(res => {
                 const fetchedData = [];
                 const photos = res.data;

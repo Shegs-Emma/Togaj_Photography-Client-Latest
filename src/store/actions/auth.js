@@ -56,11 +56,11 @@ export const auth = (email, password, adminCode, isSignUp) => {
             adminCode: adminCode
         }
 
-        // let url = 'https://enigmatic-eyrie-76099.herokuapp.com/api/auth/signup';
+        // let url = 'https://togaj-photography.herokuapp.com/api/auth/signup';
         let url = `${process.env.REACT_APP_BASE_URL}auth/signup`;
 
         if(!isSignUp){
-            // url = 'https://enigmatic-eyrie-76099.herokuapp.com/api/auth/login';
+            // url = 'https://togaj-photography.herokuapp.com/api/auth/login';
             url = `${process.env.REACT_APP_BASE_URL}auth/login`;
         }
 

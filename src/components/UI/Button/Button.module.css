@@ -12,10 +12,10 @@
 }
 
 .Button:hover, .Button:active {
-    background-color: #a8f096;
+    background-color: #e97867;
     border: 1px solid #966909;
-    color: #966909;
-    box-shadow: 2px 2px 2px #a09e1f;
+    color: #2c2e2e;
+    box-shadow: 2px 2px 2px #3a3a39;
 }
 
 .Button:disabled {

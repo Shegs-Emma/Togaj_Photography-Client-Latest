@@ -29,7 +29,7 @@ export const contact = (userDetails) => {
     return dispatch => {
         dispatch(contactStart());
 
-        // axios.post('https://enigmatic-eyrie-76099.herokuapp.com/api/contact', userDetails)
+        // axios.post('https://togaj-photography.herokuapp.com/api/contact', userDetails)
         axios.post(`${process.env.REACT_APP_BASE_URL}contact`, userDetails)
             .then((res) => {
                 console.log(res);
