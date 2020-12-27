@@ -15,7 +15,7 @@ const Photo = (props) => {
                 alt=""
                 className={classes.Image} />
             {/* {props.category} */}
-            <button className={classes.Button} onClick={handleClick}> View Photo </button>
+            <button className={classes.Button} onClick={handleClick}> Enlarge Photo </button>
             {props.isAuth && props.isAdmin && props.isAuth === props.isAdmin ? <button className={classes.Button} onClick={props.delete}> Delete Photo </button> : null}
         </div>
     )

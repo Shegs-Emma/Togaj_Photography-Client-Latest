@@ -72,22 +72,89 @@
 }
 
 @media(max-width: 375px) {
-    .header2 {
+    .header2, .header3 {
         margin-top: 20%;
         font-size: small;
     }
 }
 
 @media(min-width: 376px) and (max-width: 414px) {
-    .header2 {
+    .header2, .header3 {
         margin-top: 19%;
         font-size: medium;
     }
 }
 
 @media(min-width: 768px) and (max-width: 1025px) {
-    .header2 {
+    .header2, .header3 {
         margin-top: 12%;
+        font-size: large;
+    }
+}
+
+@media(width: 540px) and (height: 720px) {
+    .header2, .header3 {
+        margin-top: 18%;
+        font-size: large;
+    }
+}
+
+@media(width: 568px) and (height: 320px){
+    .header2, .header3 {
+        margin-top: 18%;
+        font-size: large;
+    }
+}
+
+/* iphone 6 */
+@media(width: 667px) and (height: 375px) {
+    .header2, .header3 {
+        margin-top: 15%;
+        font-size: large;
+    }
+}
+
+/* iphone 6 plus */
+@media(width: 736px) and (height: 414px) {
+    .header2, .header3 {
+        margin-top: 15%;
+        font-size: large;
+    }
+}
+
+/* surface duo side */
+@media(width: 720px) and (height: 540px) {
+    .header2, .header3 {
+        margin-top: 15%;
+        font-size: large;
+    }
+}
+
+
+@media(min-width: 500px) and (max-width: 600px) {
+    .header2, .header3 {
+        margin-top: 15%;
+        font-size: large;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 767px) {
+    .header2, .header3 {
+        margin-top: 15%;
+        font-size: large;
+    }
+}
+
+@media(min-width: 1022px) and (max-width: 1125px) {
+    .header2, .header3 {
+        margin-top: 10%;
+        font-size: large;
+    }
+}
+
+@media(min-width: 415px) and (max-width: 499px) {
+    .header2, .header3 {
+        margin-top: 10%;
         font-size: large;
     }
 }

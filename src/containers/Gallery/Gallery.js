@@ -34,7 +34,7 @@ const Gallery = (props) => {
     if(pictures){
         photograph = (
             <Photos 
-                pictures={pictures} 
+                pictures={pictures}
                 sortCategory={category}
                 view={viewHandler} 
                 loading={loading}

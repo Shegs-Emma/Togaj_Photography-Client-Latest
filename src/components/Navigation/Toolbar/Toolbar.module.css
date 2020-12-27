@@ -35,3 +35,25 @@
         height: 70px;
     }
 }
+
+@media(width: 568px) and (height: 320px) {
+    .Toolbar {
+        height: 100px;
+    }
+}
+
+
+
+
+
+@media(min-width: 500px) and (max-width: 762px) {
+    .Toolbar {
+        height: 80px;
+    }
+}
+
+@media(min-width: 415px) and (max-width: 499px) {
+    .Toolbar {
+        height: 50px;
+    }
+}

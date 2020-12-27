@@ -87,6 +87,200 @@
 @media(min-width: 768px) and (max-width: 1025px) {
     .Footer {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid #211F3B;
+        padding: 5%;
+        margin-top: 10%;
+    }
+
+    .TextSide {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .TextSide p{
+        font-size: small;
+    }
+
+    .Socials {
+        width: 100%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+@media(width: 540px) and (height: 720px) {
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid #211F3B;
+        padding: 5%;
+        margin-top: 10%;
+    }
+
+    .TextSide {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+    
+    .TextSide p{
+        font-size: small;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+@media(width: 568px) and (height: 320px) {
+    .TextSide p{
+        font-size: small;
+    }
+
+    .TextSide h6{
+        font-size: small;
+    }
+
+    .TextSide {
+        width: 70%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+/* iphone 6 */
+@media(width: 667px) and (height: 375px) {
+    .TextSide p{
+        font-size: small;
+    }
+
+    .TextSide h6{
+        font-size: small;
+    }
+
+    .TextSide {
+        width: 70%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+/* iphone 6 plus */
+@media(width: 736px) and (height: 414px) {
+    .TextSide p{
+        font-size: small;
+    }
+
+    .TextSide h6{
+        font-size: small;
+    }
+
+    .TextSide {
+        width: 70%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+/* surface duo side */
+@media(width: 720px) and (height: 540px) {
+    .TextSide p{
+        font-size: small;
+    }
+
+    .TextSide h6{
+        font-size: small;
+    }
+
+    .TextSide {
+        width: 70%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+@media(min-width: 500px) and (max-height: 762px) {
+    .TextSide p{
+        font-size: small;
+    }
+
+    .TextSide h6{
+        font-size: small;
+    }
+
+    .TextSide {
+        width: 70%;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #7f7f83;
+    }
+
+    .Socials {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .Togaj {
+        width: 70%;
+    }
+}
+
+@media(min-width: 415px) and (max-width: 499px) {
+    .Footer {
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         border-top: 1px solid #211F3B;

@@ -12,7 +12,7 @@
 }
 
 .Button:hover, .Button:active {
-    background-color: #A0DB41;
+    background-color: #a8f096;
     border: 1px solid #966909;
     color: #966909;
     box-shadow: 2px 2px 2px #a09e1f;

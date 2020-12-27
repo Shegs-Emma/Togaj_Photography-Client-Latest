@@ -24,3 +24,14 @@
         top: -8px;
     }
 }
+
+
+@media(min-width: 500px) and (max-height: 762px) {
+    .Logo img{
+        height: 90px;
+        width: 110px;
+        position: relative;
+        left: -8px;
+        top: -8px;
+    }
+}
