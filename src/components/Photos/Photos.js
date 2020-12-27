@@ -23,7 +23,8 @@ const Photos = (props) => {
     }
 
     const deleter = (id) => {
-        axios.delete(`http://localhost:3001/api/photos/${id}`)
+        // axios.delete(`http://localhost:3001/api/photos/${id}`)
+        axios.delete(`https://togaj-photography.herokuapp.com/api/photos/${id}`)
             .then(res => {
                 setIsDeleted(true);
             }).catch(error => {
