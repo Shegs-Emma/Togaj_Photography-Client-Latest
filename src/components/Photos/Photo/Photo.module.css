@@ -10,12 +10,12 @@
     width: 100%;
     border: 3px solid #22436D;
     border-radius: 10px;
-    box-shadow: 1px 1px rgb(54, 54, 61);
+    box-shadow: 2px 2px rgb(109, 109, 110);
 }
 
 .Button{
     border-radius: 5px;
-    background-color: #3CB46E;
+    background-color: #80b194;
     color: whitesmoke;
     font-size: small;
     padding: 5px;
@@ -23,9 +23,19 @@
     font-family: 'Original Surfer', cursive;
 }
 
+.Button:hover, .Button:active {
+    background-color: #11c76c;
+    color: whitesmoke;
+}
+
 .Button:nth-child(3){
-    background-color: rgb(223, 26, 26);
+    background-color: rgb(172, 49, 49);
     color: white;
+}
+
+.Button:nth-child(3):hover, .Button:nth-child(3):active {
+    background-color: #c20707;
+    color: whitesmoke;
 }
 
 
@@ -36,8 +46,6 @@
 
     .Button{
         border-radius: 5px;
-        background-color: #3CB46E;
-        color: white;
         font-size: small;
         padding: 5px;
         margin: 1px;

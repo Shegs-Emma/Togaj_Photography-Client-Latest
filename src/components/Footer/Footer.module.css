@@ -2,21 +2,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-top: 1px solid #211F3B;
+    border-top: 1px solid #e5e5ee;
     padding: 5%;
     margin-top: 10%;
 }
 
 .Togaj {
-    width: 50%;
+    width: 60%;
 }
 
 
 .TextSide {
-    width: 30%;
+    width: 50%;
     text-align: justify;
+    font-family: 'Viaoda Libre', cursive;
+    color: #e0dfe9;
+}
+
+.TextSide h5 {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #211F3B;
 }
 
 .Socials {
@@ -24,12 +28,19 @@
 }
 
 .Logos {
-    width: 10%;
-    margin: 10%;
+    width: 5%;
+    margin: 25px 20px 20px 20px;
 }
 
 .Linkedin {
-    width: 30%;
+    width: 10%;
+    margin-top: 10px;
+}
+
+.Copyright{
+    color: rgb(238, 235, 235);
+    font-size: small;
+    font-family: 'Viaoda Libre', cursive;
 }
 
 @media(max-width: 375px) {
@@ -37,24 +48,35 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        border-top: 1px solid #211F3B;
+        border-top: 1px solid #e5e5ee;
         padding: 5%;
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     .TextSide {
         width: 100%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #e4e4ec;
     }
 
     .Socials {
         width: 100%;
+        margin-top: 10px;
     }
 
     .Togaj {
-        width: 70%;
+        width: 50%;
+    }
+
+    .Logos {
+        width: 10%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 10%;
+        margin-top: 10px;
     }
 }
 
@@ -63,24 +85,35 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        border-top: 1px solid #211F3B;
+        border-top: 1px solid #e5e5ee;
         padding: 5%;
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     .TextSide {
         width: 100%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #e5e5ee;
     }
 
     .Socials {
         width: 100%;
+        margin-top: 10px;
     }
 
     .Togaj {
-        width: 70%;
+        width: 50%;
+    }
+
+    .Logos {
+        width: 10%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 10%;
+        margin-top: 10px;
     }
 }
 
@@ -89,7 +122,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        border-top: 1px solid #211F3B;
+        border-top: 1px solid #e5e5ee;
         padding: 5%;
         margin-top: 10%;
     }
@@ -98,7 +131,7 @@
         width: 100%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #e5e5ee;
     }
 
     .TextSide p{
@@ -106,95 +139,129 @@
     }
 
     .Socials {
-        width: 100%;
+        width: 60%;
     }
 
     .Togaj {
-        width: 70%;
+        width: 100%;
+    }
+
+    .Logos {
+        width: 15%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 15%;
+        margin-top: 10px;
     }
 }
 
 @media(width: 540px) and (height: 720px) {
     .Footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        border-top: 1px solid #211F3B;
+        border-top: 1px solid #e5e5ee;
         padding: 5%;
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     .TextSide {
         width: 100%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
-    }
-    
-    .TextSide p{
-        font-size: small;
+        color: #e5e5ee;
     }
 
     .Socials {
         width: 100%;
-        padding-top: 10%;
+        margin-top: 10px;
     }
 
     .Togaj {
-        width: 70%;
+        width: 50%;
+    }
+
+    .Logos {
+        width: 8%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 8%;
+        margin-top: 10px;
     }
 }
 
 @media(width: 568px) and (height: 320px) {
     .TextSide p{
-        font-size: small;
+        font-size: x-small;
     }
 
-    .TextSide h6{
-        font-size: small;
+    .TextSide h5{
+        font-size: x-small;
     }
 
     .TextSide {
         width: 70%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #ededf5;
     }
 
     .Socials {
-        width: 100%;
-        padding-top: 10%;
+        width: 70%;
     }
 
     .Togaj {
         width: 70%;
+    }
+
+    .Logos {
+        width: 15%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 15%;
+        margin-top: 10px;
     }
 }
 
 /* iphone 6 */
 @media(width: 667px) and (height: 375px) {
     .TextSide p{
-        font-size: small;
+        font-size: x-small;
     }
 
-    .TextSide h6{
-        font-size: small;
+    .TextSide h5{
+        font-size: x-small;
     }
 
     .TextSide {
         width: 70%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #ededf5;
     }
 
     .Socials {
-        width: 100%;
-        padding-top: 5%;
+        width: 70%;
     }
 
     .Togaj {
         width: 70%;
+    }
+
+    .Logos {
+        width: 12%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 12%;
+        margin-top: 10px;
     }
 }
 
@@ -204,7 +271,7 @@
         font-size: small;
     }
 
-    .TextSide h6{
+    .TextSide h5{
         font-size: small;
     }
 
@@ -212,16 +279,25 @@
         width: 70%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #ededf5;
     }
 
     .Socials {
-        width: 100%;
-        padding-top: 5%;
+        width: 70%;
     }
 
     .Togaj {
         width: 70%;
+    }
+
+    .Logos {
+        width: 12%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 12%;
+        margin-top: 10px;
     }
 }
 
@@ -231,7 +307,7 @@
         font-size: small;
     }
 
-    .TextSide h6{
+    .TextSide h5{
         font-size: small;
     }
 
@@ -239,16 +315,25 @@
         width: 70%;
         text-align: justify;
         font-family: 'Montserrat Alternates', sans-serif;
-        color: #7f7f83;
+        color: #ededf5;
     }
 
     .Socials {
-        width: 100%;
-        padding-top: 5%;
+        width: 70%;
     }
 
     .Togaj {
         width: 70%;
+    }
+
+    .Logos {
+        width: 12%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 12%;
+        margin-top: 10px;
     }
 }
 
@@ -274,7 +359,21 @@
     }
 
     .Togaj {
+        width: 90%;
+    }
+
+    .Socials {
         width: 70%;
+    }
+
+    .Logos {
+        width: 8%;
+        margin: 25px 20px 20px 20px;
+    }
+
+    .Linkedin {
+        width: 12%;
+        margin-top: 10px;
     }
 }
 

@@ -11,12 +11,12 @@ import Spinner from '../../components/UI/Spinner/Spinner';
 import * as actions from '../../store/actions/index';
 
 const PhotoData = (props) => {
-    const [ file, setFile ] = useState('');
-    const [ imageCategory, setImageCategory ] = useState('');
-    const [ fileName, setFileName ] = useState('Choose File');
-    const [ previewSource, setPreviewSource ] = useState();
+    const [file, setFile] = useState('');
+    const [imageCategory, setImageCategory] = useState('');
+    const [fileName, setFileName] = useState('Choose File');
+    const [previewSource, setPreviewSource] = useState();
 
-//========================================================================================================
+    //========================================================================================================
     const postHandler = event => {
         event.preventDefault();
 
@@ -53,27 +53,27 @@ const PhotoData = (props) => {
 
     let redirect = null;
 
-    if(props.loading){
+    if (props.loading) {
         redirect = <Spinner />
     }
 
-    if(props.submitted){
+    if (props.submitted) {
         redirect = <Redirect to='/gallery' />;
     }
-//===================================================================================================
-//====================================================================================================
+    //===================================================================================================
+    //====================================================================================================
 
 
-    return(
+    return (
         <div className={classes.Gallery}>
             <Layout uploading header='UPLOAD A PHOTOGRAPH'>
                 <div className={classes.ContactData}>
                     <form onSubmit={postHandler}>
                         <div className='custom-file mb-4'>
-                            <input 
+                            <input
                                 required
                                 type='file'
-                                className='custom-file-input' 
+                                className='custom-file-input'
                                 id='customFile'
                                 onChange={onChange} />
                             <label className='custom-file-label' htmlFor='customFile'>
@@ -84,19 +84,19 @@ const PhotoData = (props) => {
                                     <option>Select Category...</option>
                                     <option>Weddings</option>
                                     <option>Birthdays</option>
-                                    <option>Graduations</option>
-                                    <option>Others</option>
+                                    <option>Portraits</option>
+                                    <option>Model Shoots</option>
                                 </select>
                             </div>
                         </div>
                         <Button btnType="Danger" >SUBMIT</Button>
                     </form>
                 </div>
+                {previewSource && (
+                    <img src={previewSource} alt="chosen" style={{ height: '300px' }} />
+                )}
+                {redirect}
             </Layout>
-            {previewSource && (
-                        <img src={previewSource} alt="chosen" style={{height:'300px'}} />
-                    )}
-            {redirect}
         </div>
     )
 }

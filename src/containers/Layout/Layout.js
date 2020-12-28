@@ -24,8 +24,8 @@ const Layout = (props) => {
         <header className={classes.header2}>
             <span onClick={() => props.sort('Weddings')}>Weddings</span> 
             <span onClick={() => props.sort('Birthdays')}>Birthdays</span> 
-            <span onClick={() => props.sort('Graduations')}>Graduations</span> 
-            <span onClick={() => props.sort('Others')}>Others</span>
+            <span onClick={() => props.sort('Portraits')}>Portraits</span> 
+            <span onClick={() => props.sort('Model Shoots')}>Model Shoots</span>
         </header>
     );
 
