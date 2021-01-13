@@ -20,7 +20,7 @@
     font-size: small;
     padding: 5px;
     margin: 5px;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .Button:hover, .Button:active {
@@ -49,6 +49,6 @@
         font-size: small;
         padding: 5px;
         margin: 1px;
-        font-family: 'Original Surfer', cursive;
+        font-family: 'Montserrat Alternates', sans-serif;
     }
 }

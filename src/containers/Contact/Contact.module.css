@@ -1,14 +1,12 @@
 .Contact{
+    font-family: 'Montserrat Alternates', sans-serif;
     color: #dee5e9;
 }
 
 .Form{
     margin: 20px auto;
-    /* background-color:rgb(204, 156, 67); */
     width: 50%;
     text-align: center;
-    /* box-shadow: 0 2px 3px #ccc;
-    border: 1px solid #eee; */
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10%;
@@ -22,7 +20,6 @@
     background-color: #8A8A69;
     box-sizing: border-box;
     margin: 10px auto;
-    /* padding: 5px; */
 }
 
 .TextArea{
@@ -32,17 +29,13 @@
     background-color: #8A8A69;
     box-sizing: border-box;
     margin: 10px auto;
-    /* padding: 20px; */
 }
 
 @media (max-width: 499px){
     .Form{
         margin: 20px auto;
-        /* background-color:rgb(204, 156, 67); */
         width: 80%;
         text-align: center;
-        /* box-shadow: 0 2px 3px #ccc;
-        border: 1px solid #eee; */
         padding: 10px;
         box-sizing: border-box;
         border-radius: 10%;
@@ -56,6 +49,5 @@
         background-color: #8A8A69;
         box-sizing: border-box;
         margin: 10px auto;
-        /* padding: 5px; */
     }
 }

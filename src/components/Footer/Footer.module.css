@@ -15,7 +15,7 @@
 .TextSide {
     width: 50%;
     text-align: justify;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     color: #e0dfe9;
 }
 
@@ -40,7 +40,7 @@
 .Copyright{
     color: rgb(238, 235, 235);
     font-size: small;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 @media(max-width: 375px) {

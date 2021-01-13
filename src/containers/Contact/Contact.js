@@ -168,9 +168,9 @@ const Contact = (props) => {
                         <p>Ogun, Nigeria</p>
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faPhoneAlt} /> (+234) 80 998 239 86 <br />
-                        <FontAwesomeIcon icon={faEnvelope} /> Togajphotography21@gmail.com <br />
-                        <FontAwesomeIcon icon={faClock} />  Always Open
+                        <FontAwesomeIcon icon={faPhoneAlt} /> <span>(+234) 80 998 239 86</span> <br />
+                        <FontAwesomeIcon icon={faEnvelope} /> <span>Togajphotography21@gmail.com</span> <br />
+                        <FontAwesomeIcon icon={faClock} />  <span>Always Open</span>
                     </div>
 
                     <div className={classes.Form}>
