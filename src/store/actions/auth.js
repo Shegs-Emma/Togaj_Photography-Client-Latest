@@ -1,8 +1,8 @@
 import * as actionTypes from './actionTypes';
 import axios from 'axios';
-import { config } from 'dotenv';
+// import { config } from 'dotenv';
 
-config();
+// config();
 
 
 
@@ -56,12 +56,12 @@ export const auth = (email, password, adminCode, isSignUp) => {
             adminCode: adminCode
         }
 
-        // let url = 'https://togaj-photography.herokuapp.com/api/auth/signup';
-        let url = `${process.env.REACT_APP_BASE_URL}auth/signup`;
+        let url = 'https://togaj-photography.herokuapp.com/api/auth/signup';
+        // let url = `${process.env.REACT_APP_BASE_URL}auth/signup`;
 
         if(!isSignUp){
-            // url = 'https://togaj-photography.herokuapp.com/api/auth/login';
-            url = `${process.env.REACT_APP_BASE_URL}auth/login`;
+            url = 'https://togaj-photography.herokuapp.com/api/auth/login';
+            // url = `${process.env.REACT_APP_BASE_URL}auth/login`;
         }
 
         return axios.post(url, authData)
